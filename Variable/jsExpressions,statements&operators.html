@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>jsExpression,Statements&Operators</title>
+</head>
+
+<body>
+    <h3>JavaScript Expressions, Statement & Operators</h3>
+
+
+    <script>
+        let remainder = 5 % 3;
+        console.log(`5 division 3 Remainder is ${remainder}.`)
+        let power = 2 ** 4;
+        console.log(`2 power 4 is ${power}.`)
+    </script>
+
+    <script>
+        num = 2;
+        num = num + 3;
+        console.log(num)
+        /*5 == "5"; true
+        5 === "5";false
+        5 !="5";false
+        5 !=="5";true
+        5 > 5; false
+        5 >= 5; true*/
+    </script>
+    <script>
+        var num = 3;
+        console.log((num > 3) && (num < 5));
+        console.log((num < 5) && (num > 3));
+        console.log((num < 5) && (num == 3));
+        console.log(num > 3 && num < 5);
+        console.log(num < 5 && num > 3);
+        console.log(num < 5 && num == 3);
+        /*&&(AND) 2 khu lone true ma true*/
+        var num = 3;
+        console.log(num > 3 || num < 5);
+        console.log(num < 3 || num > 3);
+        console.log(num < 5 || num == 3);
+        /*||(OR) 1 khu true tr nat true*/
+    </script>
+    <script>
+        var x = 3;
+        var y = 5;
+        console.log(x < y && y > 5 && x == 3);
+        console.log(x < y && !(y > 5 && x == 3));
+        console.log(x < y && y > 5 || x == 3);
+    </script>
+
+</body>
+
+</html>
