@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>functions</title>
+</head>
+
+<body>
+    <h3>javascrip Functions</h3>
+    <script>
+        function add(a, b) {
+            return a + b
+        }
+
+        function circle(r) {
+            const PI = 3.14
+            return PI * r * r
+        }
+        function greet() {
+            console.log("Hello,World!")
+        }
+        function sayHello(name) {
+            console.log(`Hello ${name}`)
+        }
+
+        console.log(add(2, 5))
+        console.log(circle(6))
+        greet()
+        sayHello("Bunny")
+
+
+
+
+    </script>
+    <script>
+        function sum(A, B) {
+            console.log('Start adding')
+            return A + B
+            console.log('Done adding')
+        }
+        let result = sum(1, 2)
+        /*function mar return pyi yin tu alote pyi p moh under ka har sat ma lote tot par*/
+    </script>
+    <h4>Default&Rest parameters</h4>
+    <script>
+        function add(a, b) {
+            return a + b
+        }
+        console.log(add(1, 2, 3, 4))
+        console.log(add(1))
+
+        function add(a, b, ...c) {
+            console.log(c)
+        }
+        add(1, 2, 3, 4, 5)
+    </script>
+
+
+</body>
+
+</html>
