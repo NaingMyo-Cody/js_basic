@@ -18,6 +18,9 @@
     </script>
 
     <script>
+        var result = 'power=' + power;
+        console.log(result);
+        console.log("-----" + result);
         num = 2;
         num = num + 3;
         console.log(num)
@@ -29,7 +32,7 @@
         5 >= 5; true*/
     </script>
     <script>
-        var num = 3;
+        let num = 3;
         console.log((num > 3) && (num < 5));
         console.log((num < 5) && (num > 3));
         console.log((num < 5) && (num == 3));
@@ -37,15 +40,15 @@
         console.log(num < 5 && num > 3);
         console.log(num < 5 && num == 3);
         /*&&(AND) 2 khu lone true ma true*/
-        var num = 3;
+
         console.log(num > 3 || num < 5);
         console.log(num < 3 || num > 3);
         console.log(num < 5 || num == 3);
         /*||(OR) 1 khu true tr nat true*/
     </script>
     <script>
-        var x = 3;
-        var y = 5;
+        let x = 3;
+        let y = 5;
         console.log(x < y && y > 5 && x == 3);
         console.log(x < y && !(y > 5 && x == 3));
         console.log(x < y && y > 5 || x == 3);
